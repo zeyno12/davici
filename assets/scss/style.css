@@ -1,0 +1,205 @@
+#isotop {
+  padding: 24px 0px;
+}
+
+#isotop .isotop-item {
+  overflow: hidden;
+  position: relative;
+}
+
+#isotop .isotop-item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#isotop .isotop-item .stars ul {
+  cursor: pointer;
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#isotop .isotop-item .stars ul li {
+  list-style: none;
+  margin: 0px 2px;
+}
+
+#isotop .isotop-item .stars ul li p {
+  margin: 0;
+  color: gray;
+}
+
+#isotop .isotop-item .stars svg {
+  color: goldenrod;
+}
+
+#isotop .isotop-item p {
+  margin: 4px 0px;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+#isotop .isotop-item p:hover {
+  color: red;
+}
+
+#isotop .isotop-item p span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#isotop .isotop-item .hover-item {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#isotop .isotop-item .hover-item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#isotop .isotop-item .icons-hover {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#isotop .isotop-item .icons-hover ul {
+  padding: 0;
+}
+
+#isotop .isotop-item .icons-hover ul li {
+  list-style: none;
+  cursor: pointer;
+  margin: 5px 0px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#isotop .isotop-item .icons-hover ul li svg {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#isotop .isotop-item .icons-hover ul li:hover {
+  background-color: plum;
+  color: white;
+}
+
+#isotop .isotop-item:hover .hover-item {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#isotop .isotop-item:hover .icons-hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  opacity: 1;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+#isotop .isotop-item .search-icon .search-item {
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-50px, -50px);
+          transform: translate(-50px, -50px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#isotop .isotop-item:hover .search-icon .search-item {
+  -webkit-transform: translate(-12px, -12px);
+          transform: translate(-12px, -12px);
+}
+
+#modal-con .image-modal img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#modal-con .text-modal .part-2 img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#modal-con .text-modal .part-2 p {
+  font-size: smaller;
+  color: gray;
+}
+
+#modal-con .text-modal .part-2 button {
+  width: 100%;
+  padding: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  background-color: black;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#modal-con .text-modal .part-1 p, #modal-con .text-modal .part-1 span {
+  color: orange;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
